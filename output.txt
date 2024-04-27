@@ -1,0 +1,4 @@
+Compiling main.cc
+g++ -o main main.cc
+running main
+Hello World!

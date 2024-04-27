@@ -11,3 +11,5 @@ RUN apt-get update
 
 # Install g++ compiler
 RUN apt-get install -y g++
+
+ENTRYPOINT [ "bash", "/app/test.sh" ]
